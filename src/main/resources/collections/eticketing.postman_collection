@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "889d3eee-1caf-439d-82e8-d501d154285e",
+		"name": "Personal",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "45378922"
+	},
+	"item": [
+		{
+			"name": "http://localhost:9191/api/shows/addNew",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"showStartTime\": \"12:06\",\r\n    \"showDate\": \"28/05/2025\",\r\n    \"theaterId\": 1,\r\n    \"movieId\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:9191/api/shows/addNew"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9191/api/theatres/addNew",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"pvr\",\r\n    \"address\": \"kharadi\",\r\n    \"city\": \"pune\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:9191/api/theatres/addNew"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9191/api/movies/addNew",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"movieName\":\"Stree 2\",\r\n    \"duration\":\"2\",\r\n    \"rating\":\"3.5\",\r\n    \"releaseDate\":\"2024-06-22\",\r\n    \"genre\":\"DRAMA\",\r\n    \"language\":\"HINDI\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:9191/api/movies/addNew"
+			},
+			"response": []
+		}
+	]
+}
